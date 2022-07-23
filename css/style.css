@@ -6,24 +6,33 @@
 }
 
 #navbar {
-  position: fixed;
+  position:relative;
   top: 0;
   width: 100%;
   text-align: right;
+  color: blue;
   background-color: rgb(100, 12, 12, 0.4);
   height:80px;
 }
+#nav-bar
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: left;
+    background-color: rgb(100, 12, 12, 0.4);
+    height:80px;
+  }
 body {
   background-color: lightblue;
 }
-@media only screen and (max-width: 600px){
-  #navbar
-  {
-    display: block;
-  }
+@media screen and (max-width: 80px) and (min-width: 90px) {
+    #welcome-section {
+      padding-left: 30px;
+      background: url(email-icon.png) left center no-repeat;
+    }
+
 }
-
-
 /* #image {
     display: block;
 
